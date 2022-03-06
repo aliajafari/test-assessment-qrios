@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useCallback, useState } from 'react';
+import styles from './App.module.scss'
+import GalleryCard from './components/GalleryCard';
+import Modal from './components/Modal';
+import Portal from './components/Portal';
+import data from './data.json';
 
 function App() {
+
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const handleOnClickImage = useCallback((id) => {
+    setSelectedImage(data.find(item => item.id === id))
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className={styles.container}>
+        {data.map((item) => {
+          return <GalleryCard {...item} key={item.id} onClickImage={handleOnClickImage} />
+        })}
+      </div>
+      {selectedImage &&
+        <Portal>
+          <Modal {...selectedImage} />
+        </Portal>
+      }
+
+    </>
   );
 }
 
