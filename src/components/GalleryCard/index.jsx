@@ -4,17 +4,11 @@ import styles from "./Gallery.module.scss";
 function GalleryCard({ id, title, image, onClickImage }) {
   return (
     <div className={styles.galleryItem}>
-      <div className={styles.imageContainer}>
-        <img
-          src={image}
-          title={title}
-          alt={title}
-          onClick={() => {
-            console.log("12345");
-            onClickImage(id);
-          }}
-        />
-      </div>
+      <div
+        className={styles.imageContainer}
+        onClick={() => onClickImage(id)}
+        style={{ backgroundImage: `url(${image})` }}
+      />
       <h2>{title}</h2>
     </div>
   );

@@ -13,6 +13,10 @@ function App() {
     setSelectedImage(data.find(item => item.id === id))
   }, [])
 
+  const handleOnClickClosePortal = () => {
+    setSelectedImage(null);
+  }
+  
   return (
     <>
       <div className={styles.container}>
@@ -22,7 +26,7 @@ function App() {
       </div>
       {selectedImage &&
         <Portal>
-          <Modal {...selectedImage} />
+          <Modal {...selectedImage} onClickClose={handleOnClickClosePortal} />
         </Portal>
       }
 

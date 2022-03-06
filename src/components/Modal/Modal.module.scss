@@ -1,0 +1,70 @@
+@keyframes backgroundAnimation {
+    from {
+        background-color: rgba(0,0,0,0);
+    }
+
+    to {
+        background-color: rgba(0,0,0,0.8);
+        animation-play-state: paused;
+    }
+}
+
+@keyframes containerAnimation {
+    from {
+        opacity: 0;
+
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.modalWrapper {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // background-color: rgba(0, 0, 0, 0.8);
+    overflow-x: scroll;
+    animation-name: backgroundAnimation;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.modalContainer {
+    opacity: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    animation-name: containerAnimation;
+    animation-duration: 0.4s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+    >div {
+        max-height: 400px;
+
+        img {
+            display: block;
+            height: 100%;
+            margin: auto;
+        }
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        margin-top: 0;
+    }
+}
