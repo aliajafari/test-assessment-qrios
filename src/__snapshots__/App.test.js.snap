@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/300x150/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/300x300/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/150x300/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/300x150/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/300x300/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/150x300/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/300x150/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/300x300/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/150x300/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/300x150/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/300x300/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/150x300/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/300x150/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+  <div
+    className="galleryItem"
+  >
+    <div
+      className="imageContainer"
+      data-testid="gallery-item-image"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(https://via.placeholder.com/300x300/09f/fff.png)",
+        }
+      }
+    />
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </h2>
+  </div>
+</div>
+`;

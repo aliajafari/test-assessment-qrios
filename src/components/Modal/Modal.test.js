@@ -9,7 +9,7 @@ const data = {
     "image": "https://via.placeholder.com/300x300/09f/fff.png"
 }
 
-it('renders correctly when there is a single item', () => {
+it('renders correctly when there is a Modal', () => {
     const tree = renderer.create(<Modal {...data} />).toJSON();
     expect(tree).toMatchSnapshot();
 });

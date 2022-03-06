@@ -8,6 +8,7 @@ function GalleryCard({ id, title, image, onClickImage }) {
         className={styles.imageContainer}
         onClick={() => onClickImage(id)}
         style={{ backgroundImage: `url(${image})` }}
+        data-testid="gallery-item-image"
       />
       <h2>{title}</h2>
     </div>

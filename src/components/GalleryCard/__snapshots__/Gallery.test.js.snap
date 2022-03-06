@@ -1,11 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly when there is a single item 1`] = `
+exports[`renders correctly when there is a Gallery 1`] = `
 <div
   className="galleryItem"
 >
   <div
     className="imageContainer"
+    data-testid="gallery-item-image"
     onClick={[Function]}
     style={
       Object {
