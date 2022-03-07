@@ -3,6 +3,7 @@
 exports[`renders correctly when there is a Gallery 1`] = `
 <div
   className="galleryItem"
+  data-testid="gallery-item"
 >
   <div
     className="imageContainer"

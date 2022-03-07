@@ -9,13 +9,13 @@ function Modal({ title, image, description, onClickClose }) {
   };
 
   return (
-    <div className={styles.modalWrapper} onClick={onClickBackground}>
-      <div className={styles.modalContainer}>
+    <div className={styles.modalWrapper} onClick={onClickBackground} data-testid="close-modal">
+      <div className={styles.modalContainer} data-testid="modal-container">
         <div>
-          <img src={image} alt="" />
+          <img data-testid="modal-image" src={image} alt="" />
         </div>
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <h3 data-testid="modal-title">{title}</h3>
+        <p data-testid="modal-description">{description}</p>
       </div>
     </div>
   );

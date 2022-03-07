@@ -3,7 +3,7 @@ import styles from "./Gallery.module.scss";
 
 function GalleryCard({ id, title, image, onClickImage }) {
   return (
-    <div className={styles.galleryItem}>
+    <div className={styles.galleryItem} data-testid="gallery-item">
       <div
         className={styles.imageContainer}
         onClick={() => onClickImage(id)}
